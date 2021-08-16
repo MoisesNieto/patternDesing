@@ -110,10 +110,10 @@ class pizza {
 }
 const funcionesPizza={
   mostrarsabro(){
-    console.log(`me gusta mucho la pizza ${sabor}`);
+    console.log(`me gusta mucho la pizza ${this.sabor}`);
   },
   mostrarTamaño(){
-    console.log(`me gusta mucho la pizza ${tamaño}`);
+    console.log(`me gusta mucho la pizza ${this.tamaño}`);
   }
 }
 //para añadir funcionalidades a una clase usamos: el object.assign
